@@ -1,0 +1,128 @@
+<!DOCTYPE HTML>
+<html>
+<!--head section will usually contains non displayable content-->
+<head> 
+<!--title will be displayed at the browsers tab-->
+<title>
+Hello world
+</title>
+</head>
+
+<!--This will usually containt tags that define displayable content of html page-->
+<body>
+<!--This will display at the top of the edge-->
+<header>
+<h1> This is first evel Headline</h1>
+<h3>less important heading</h3>
+</header>
+<nav><ul align="left">
+        <li><a href="https://www.amazon.in" target="blank">Amazon.in </a></li>
+        <li><a href="https://www.shopclues.com" target="blank">shopclues.com </a></li>
+        <li><a href="https://www.snapdeal.com" target="blank">snapdeal.com </a></li>
+        <li><a href="#">Home </a></li>
+      </ul> 
+</nav>
+
+<article>
+<h1>welcome heading of article</h1>
+
+<section>
+<h1>section 1 heading</h1>
+<p> content of artcle in section 1 </br>content of article in section 1</p>
+Status: <progress min="0" max="100" value="35">
+</progress>
+<video controls  loop>
+   <source src="video.mp4" type="video/mp4">
+   <source src="video.ogg" type="video/ogg">
+   Video is not supported by your browser
+</video>
+</section>
+<section>
+<h1>section 2 heading</h1>
+<p> content of artcle in section 2 </br>content of article in section 2</p>
+<audio controls  loop>
+   <source src="audio.mp3" type="audio/mpeg">
+   <source src="audio.ogg" type="audio/ogg">
+   Audio element not supported by your browser. 
+</audio>
+<svg width="2000" height="2000">
+   <circle cx="80" cy="80" r="50" fill="green" />
+</svg>
+</section>
+
+<aside align="right"><p>aside section of artcle</p></aside>
+</article>
+<form method="POST" ,action="https://www.google.com">
+   <input type="text" name="username" /><br />
+   <input type="password" name="password" /> <br />
+<input type="radio" name="gender" value="male" /> Male <br />
+<input type="radio" name="gender" value="female" /> Female <br />
+<input type="checkbox" name="gender" value="1" /> Male <br />
+<input type="checkbox" name="gender" value="2" /> Female <br />
+<input type="submit" name="submit">
+
+</form>
+
+<!--This will add a new horizontal line below headline-->
+<hr width="37%" align="left"/>
+<img align="center" src="http://support.mediacore.com/customer/portal/attachments/97839" height="30%" width="100%" border="5px" alt="" />
+</br>
+<a href="https://www.google.com" target="blank">click here to open google search</a>
+
+
+<section align="left">
+<!--This will show a new pargraph with line breaks after and formatted text for second line and alignment to the centre-->
+<p align="center">This is first Paragraph with regular text line</br><b>This is first Paragraph with bold line</b></br>
+This is first Paragraph </br>
+this is first paragraph
+
+</p>
+
+<table border="2">
+   <tr>
+      <td bgcolor="green">Website Name </td>
+      <td bgcolor="green">Website link</td>
+      <td bgcolor="green">Offer details</td>
+   </tr>
+   <tr>
+      <td> <a href="https://www.flipkart.com" target="blank">Flipkart.com </a><br /></td>
+      <td colspan="2"><br /><ol align="right">
+        <li><a href="https://www.amazon.in" target="blank">Amazon.in </a></li>
+        <li><a href="https://www.shopclues.com" target="blank">shopclues.com </a></li>
+        <li><a href="https://www.snapdeal.com" target="blank">snapdeal.com </a></li>
+      </ol>  
+</p></td>
+   </tr>
+</table>
+</section>
+<!--This will show a new pargraph with line breaks after and formatted text for entire paragraph and alignment to the rigth-->
+<p align="right"><b>this is a second paragraph </br> this is a second paragraph </br>
+this is a second paragraph </br>
+this is a second paragraph </br>
+this is a second paragraph </b>
+ 
+<!--This will show a entire paragraph with each line break formatted with different style and alignment to left-->
+      <p align="left">This is regular text </br>
+      <b> bold text </b></br>
+      <big> big text </big></br>
+      <i> italic text </i></br>
+      <small> small text </small></br>
+      <strong> strong text </strong></br>
+      <sub> subscripted text </sub></br>
+      <sup> superscripted text </sup></br>
+      <ins> inserted text </ins></br>
+      <del> deleted text </del></p>
+
+<h3> <font color="#000000"> this is a line of text </font> </h3>
+<!--This will show a level 6 headline-->
+ <h2>Headline</h2>
+    <div style="background-color:green; color:white; padding:20px;">
+      <p>Some paragraph text goes here.</p>
+      <p>Another paragraph goes here.</p>
+    </div>
+
+<footer> Copy right @ 96lakhmobiles</footer>
+      
+
+</body>
+</html>

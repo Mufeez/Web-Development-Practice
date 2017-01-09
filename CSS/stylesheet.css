@@ -1,0 +1,15 @@
+h1 {
+   color:blue;
+  /* This is a comment */
+   background-color:green;
+}
+#intro {
+   color: white;
+   background-color: gray;
+}
+.first {font-size: 200%;}
+#intro .second em {
+   color: pink; 
+   background-color:gray;
+}
+
